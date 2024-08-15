@@ -10,8 +10,8 @@ public class Cashier {
 
     double total = 0; 
 
-    for (int i = 0; i < quantity; i++) {
-        System.out.println("What does the item cost?");
+    for (int i = 1; i < quantity+1; i++) {
+        System.out.println("What does item "+i + " Cost?");
         double price = scanner.nextDouble();
 
         total = total + price; 
