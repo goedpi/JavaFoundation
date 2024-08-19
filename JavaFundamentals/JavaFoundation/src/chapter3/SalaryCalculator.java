@@ -1,6 +1,7 @@
 package chapter3;
 
 import java.util.Scanner;
+import chapter9.*;
 
 /*
 IF Statement.
@@ -18,7 +19,8 @@ public class SalaryCalculator {
         //get remaining values
         System.out.println("How many sales did the employee make this week?");
         Scanner scanner = new Scanner(System.in);
-        
+
+
         int sales = scanner.nextInt();
 
         scanner.close();
